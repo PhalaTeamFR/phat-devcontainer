@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  phat-hello:
+    build: .
+    volumes:
+      - "./contracts/:/root/contracts"
+    restart: always
+    tty: true
